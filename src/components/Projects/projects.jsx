@@ -1,11 +1,12 @@
 import React from 'react'
 import Soccer from '../../images/soccer.jpeg'
 import Short from '../../images/shrt.png'
+import Weather from '../../images/weather.jpeg'
 
 const projects = () => {
   return (
     <>
-    <div className="max-w-7xl mx-auto px-4 sm:px-6">
+    <div className="max-w-7xl mx-auto pb-10 px-4 sm:px-6">
         <h1 className="block tracking-tight mx-auto text-5xl mt-12 mb-8 text-center font-extrabold">Projects</h1>
         <div className="flex justify-between items-stretch items-center py-6 md:justify-start md:space-x-10" >
             <div class="max-w-sm h-full rounded overflow-hidden shadow-lg">
@@ -40,7 +41,7 @@ const projects = () => {
                       </div>
             </div>
             <div class="max-w-sm rounded h-full overflow-hidden shadow-lg">
-                <img class="w-full" src={Soccer} alt="soccer"></img>
+                <img class="w-full" src={Weather} alt="soccer"></img>
                 <div class="px-6 py-4">
                     <div class="font-bold text-xl mb-2">Weather Dashboard</div>
                     <p class="text-gray-700 text-base">
