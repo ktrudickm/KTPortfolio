@@ -1,5 +1,6 @@
 import React from 'react';
 import { Fragment } from 'react'
+import { HashLink } from 'react-router-hash-link'
 import { Popover, Transition } from '@headlessui/react'
 import Resume from '../../images/TrudickKM_Resume.pdf'
 import {
@@ -43,8 +44,8 @@ function classNames(...classes) {
 const nav = () => {
   return (
     <Popover className="relative bg-white">
-    <div className="max-w-8xl mx-auto px-4 sm:px-8">
-      <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6">
+      <div className="flex justify-between items-center py-5 md:justify-start md:space-x-10">
         <div className="flex justify-start lg:w-0 lg:flex-1">
           <a href="#">
             <span className="sr-only">Workflow</span>
