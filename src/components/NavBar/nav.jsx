@@ -1,6 +1,7 @@
 import React from 'react';
 import { Fragment } from 'react'
 import { HashLink } from 'react-router-hash-link'
+import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
 import { Popover, Transition } from '@headlessui/react'
 import Resume from '../../images/TrudickKM_Resume.pdf'
 import {
@@ -45,18 +46,18 @@ const nav = () => {
   return (
     <Popover className="relative bg-white">
     <div className="max-w-7xl mx-auto px-4 sm:px-6">
-      <div className="flex justify-between items-center py-5 md:justify-start md:space-x-10">
+      <div className="flex justify-between items-center py-6 md:justify-start md:space-x-10">
         <div className="flex justify-start lg:w-0 lg:flex-1">
-          <a href="#">
+          <a href="/">
             <span className="sr-only">Workflow</span>
             {/* <img
               className="h-8 w-auto sm:h-10"
               src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
               alt=""
             /> */}
-            <a href="#" className="text-base tracking-tighter font-large text-5xl text-gray-500 hover:text-gray-900">
+            <a href="/" className="text-base tracking-tighter font-larger text-3xl text-gray-500 hover:text-gray-900">
             KMT
-          </a>
+            </a>
           </a>
         </div>
         <div className="-mr-2 -my-2 md:hidden">
