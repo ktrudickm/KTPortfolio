@@ -1,5 +1,6 @@
 import React from 'react'
 import Soccer from '../../images/soccer.jpeg'
+import Short from '../../images/shrt.png'
 
 const projects = () => {
   return (
@@ -68,11 +69,11 @@ const projects = () => {
                 </div>
             </div>
             <div class="max-w-sm rounded h-full overflow-hidden shadow-lg">
-                <img class="w-full" src={Soccer} alt="soccer"></img>
+                <img class="w-full" src={Short} alt="soccer"></img>
                 <div class="px-6 py-4">
                     <div class="font-bold text-xl mb-2">URL Shortener</div>
                     <p class="text-gray-700 text-base">
-                    Full-Stack app for staying up to date with local recreational sport leagues. Ability to view team stats, player stats, and league data.
+                        URL shortening web app utilizing JavaScript, React, and shrtcode API to shorten long urls into more manageable urls.
                     </p>
                 </div>
                 <div class="px-6 pt-4 pb-2 align-text-bottom">
@@ -85,13 +86,13 @@ const projects = () => {
                 </div>
                 <div className="px-5 py-5 sm:px-8 sm:py-8 align-bottom">
                     <div className="mt-2 text-sm">
-                        <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
+                        <a href="https://ktrudickm.github.io/URL-Shortener/" className="font-medium text-indigo-600 hover:text-indigo-500">
                         {' '}
                         Deployed Project <span aria-hidden="true">&rarr;</span>
                         </a>
                     </div>
                     <div className="mt-2 text-sm">
-                        <a href="https://github.com/ktrudickm" className="font-medium text-indigo-600 hover:text-indigo-500">
+                        <a href="https://github.com/ktrudickm/URL-Shortener" className="font-medium text-indigo-600 hover:text-indigo-500">
                         {' '}
                         Github Repository <span aria-hidden="true">&rarr;</span>
                         </a>
