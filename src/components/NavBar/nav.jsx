@@ -54,7 +54,7 @@ const nav = () => {
               src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
               alt=""
             /> */}
-            <a href="#" className="text-base font-large text-5xl text-gray-500 hover:text-gray-900">
+            <a href="#" className="text-base tracking-tighter font-large text-5xl text-gray-500 hover:text-gray-900">
             KMT
           </a>
           </a>
