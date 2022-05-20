@@ -32,7 +32,7 @@ const resources = [
   {
     name: 'URL Shortener',
     description: 'URL Shortener to shorten long URLs for business purposes. Utilization of Shrtly API.',
-    href: '#',
+    href: 'https://ktrudickm.github.io/URL-Shortener/',
     icon: ArrowCircleRightIcon,
   }
 ]
@@ -125,7 +125,7 @@ const nav = () => {
                           </a>
                         </div>
                         <div className="mt-5 text-sm">
-                          <a href="https://github.com/ktrudickm" className="font-medium text-indigo-600 hover:text-indigo-500">
+                          <a target="blank" href="https://github.com/ktrudickm" className="font-medium text-indigo-600 hover:text-indigo-500">
                             {' '}
                             View github <span aria-hidden="true">&rarr;</span>
                           </a>
@@ -145,10 +145,11 @@ const nav = () => {
         </Popover.Group>
         <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
           <a
-            href="#"
+            target="blank"
+            href="https://www.linkedin.com/in/kendall-trudick-21598a106/"
             className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
           >
-            Contact Me!
+            Lets Connect!
           </a>
         </div>
       </div>
@@ -201,6 +202,7 @@ const nav = () => {
                     </a>
                     <a
                         key="Resume"
+                        target="blank"
                         href={Resume}
                         className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
                     >
@@ -213,10 +215,11 @@ const nav = () => {
           <div className="py-6 px-5 space-y-6">
             <div>
               <a
-                href="#"
+                target="blank"
+                href="https://www.linkedin.com/in/kendall-trudick-21598a106/"
                 className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
               >
-                Contact Me!
+                Lets Connect!
               </a>
             </div>
           </div>
